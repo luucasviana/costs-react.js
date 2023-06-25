@@ -21,7 +21,7 @@ function Projects() {
     }
 
     useEffect(() => {
-        setTimeout(() => { /* setTimeout para simular um atraso na abertura da pagina para a visualização do loading */
+        // setTimeout(() => { /* setTimeout para simular um atraso na abertura da pagina para a visualização do loading */
             fetch('http://localhost:5000/projects', {
                 method: 'GET',
                 headers: {
@@ -35,7 +35,7 @@ function Projects() {
                     setRemoveLoading(true)
                 })
                 .catch(err => console.log(err))
-        }, 300)
+        // }, 300)
     }, [])
 
     /* Função para remover o projeto */
