@@ -1,0 +1,4 @@
+Projeto Cost em React.js com Orientação do Matheus Battisti
+Projete teve o proposito de enterder as funcionalidades do react, fazendo uso de Formulários, tanto na parte de validação quanto no tratamento do backend, lidando com requisições e recebendo respostas, sabendo transforma-las em dados e criando a exibição. Na pagina de projetos a finalidade era trabalhar tudo na mesma paginas, trabalhando a mudança de estados, mudando as informações em tempo real de acordo com a necessidade do usuário. Utilizamos as ferramentas de Router, Hooks como useState, useEffect e useParams.
+
+Algumas funcionalidade do Back, como o componente Serviços, e alguns styles do Front, foram adaptados por mim mesmo.
